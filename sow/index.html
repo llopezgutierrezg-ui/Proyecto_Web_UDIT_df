@@ -4,7 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
-    <link rel="stylesheet" href="sow.css" />
+    <meta name="description" content="Breve descripción del sitio web." />
+	  <meta name="keywords" content="diseño, web, educativo" />
+	  <meta name="author" content="Nombre del autor" />
+    <meta name="robots" content="inde,follow"/>
+	  <link rel="apple-touch-icon" sizes="180x180" href="..assets/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/icons/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href=".assets/css/sow.css" />
   </head>
   <body>
     <header id="sow">
@@ -79,68 +87,17 @@
           creatividad, innovación y experiencia de usuario excepcional.
         </p>
         <section class="screenshots-gallery" aria-label="Galería de capturas">
-          <div class="gallery-row">
-            <figure class="shot shot-lg">
-              <img src="/assets/sow/awwwards1.png" alt="Captura Awwwards 1" />
-              <figcaption>
-                <h3>Awwwards — Home</h3>
-                <a href="#light-aw1" class="view">Ver</a>
-              </figcaption>
-            </figure>
-
-            <figure class="shot shot-sm">
-              <img src="/assets/sow/awwwards2.png" alt="Captura Awwwards 2" />
-              <figcaption>
-                <h3>Awwwards — Proyecto</h3>
-                <a href="#light-aw2" class="view">Ver</a>
-              </figcaption>
-            </figure>
-
-            <figure class="shot shot-med">
-              <img src="/assets/sow/img1.png" alt="Captura 1" />
-              <figcaption>
-                <h3>Proyecto B</h3>
-                <a href="#light-b1" class="view">Ver</a>
-              </figcaption>
-            </figure>
+          <div id="colunms">
+	        <p>El sitio de Awwwards presenta una experiencia inmersiva con un efecto parallax en el header...</p>
+        	<!-- más párrafos -->
           </div>
-
           <div class="gallery-row">
-            <figure class="shot shot-med">
-              <img src="/assets/sow/img2.png" alt="Captura 2" />
-              <figcaption>
-                <h3>Proyecto C</h3>
-                <a href="#light-c1" class="view">Ver</a>
-              </figcaption>
-            </figure>
-
-            <figure class="shot shot-sm">
-              <img src="/assets/sow/awwwards3.png" alt="Captura Awwwards 3" />
-              <figcaption>
-                <h3>Awwwards — Detail</h3>
-                <a href="#light-aw3" class="view">Ver</a>
-              </figcaption>
-            </figure>
-
-            <figure class="shot shot-lg">
-              <img src="/assets/sow/img3.png" alt="Captura 3" />
-              <figcaption>
-                <h3>Proyecto D</h3>
-                <a href="#light-d1" class="view">Ver</a>
-              </figcaption>
-            </figure>
+            <div class="screenshots">
+	          <img src="/assets/sow/awwwards1.png" alt="Captura de pantalla 1" />
+	          <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
+            <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
+	          <!-- más imágenes -->
           </div>
-        </section>
-
-        <!-- Ejemplo minimal de lightbox con :target (opcional). Duplica y adapta para cada item si lo quieres -->
-        <div id="light-aw1" class="lightbox" aria-hidden="false">
-          <a class="lightbox-close" href="#"></a>
-          <img
-            src="/assets/sow/awwwards1.png"
-            alt="Awwwards — Home (ampliada)"
-          />
-          <p class="lightbox-caption">Awwwards — Home</p>
-        </div>
         <p class="conclusion">
           **Conclusión:** El sitio destaca por su creatividad en animaciones,
           pero podría mejorar la carga para optimizar el rendimiento en móviles.
