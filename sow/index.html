@@ -1,31 +1,71 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Some Outstanding Webs – Análisis de Sitios Premiados</title>
-    <link rel="stylesheet" href="../assets/css/responsive/ejercicio-1.css" />
-    <link rel="stylesheet" href="../assets/css/sow.css" />
+    <link rel="stylesheet" href="sow.css" />
   </head>
   <body>
-    <header>
-       <nav>
-        <!-- Menú de navegación fijo -->
+    <header id="sow">
+      <nav>
         <ul>
-          <li><a href="#site-awwwards">A site choosen from Awwwards</a></li>
-          <li><a href="#site-webby">A site choosen from Webby</a></li>
-          <li><a href="#site-fwa">A site choosen from FWA</a></li>
-          <li><a href="#site-cssda">A site choosen from CSSDA</a></li>
+          <li><a href="#introduction">Introducción</a></li>
+          <li><a href="#criteria">Criterios de Evaluación</a></li>
+          <li><a href="#examples">Ejemplos Destacados</a></li>
+          <li><a href="#conclusion">Conclusión</a></li>
         </ul>
       </nav>
-      <section class="cover">
-	      <h1 class="title">Some Outstanding Webs</h1>
-      </section>
     </header>
-    <main>
-      <!-- Secciones individuales para cada sitio -->
+
+    <div class="portadilla">
+      <h1 class="titulo-animado">Some Outstanding Webs</h1>
+    </div>
+    <div class="subtitulo">
+      <h2>
+        * Explora los sitios web más destacados y aprende qué los hace
+        sobresalir *
+      </h2>
+    </div>
+    <div id="introduction">
+      <section>
+        <h2>Introducción</h2>
+        <p>
+          En el mundo digital actual, los sitios web juegan un papel crucial en
+          la comunicación, el comercio y la información. Algunos sitios destacan
+          por su diseño, funcionalidad y experiencia de usuario. Este análisis
+          se centra en los sitios web que han sido reconocidos por su
+          excelencia.
+        </p>
+      </section>
+    </div>
+    <div id="criteria">
+      <h2>Criterios de Evaluación</h2>
+      <ul>
+        <li>
+          <strong>Diseño Visual:</strong> Uso efectivo de colores, tipografía e
+          imágenes.
+        </li>
+        <li>
+          <strong>Usabilidad:</strong> Navegación intuitiva y accesibilidad.
+        </li>
+        <li>
+          <strong>Contenido:</strong> Relevancia, claridad y valor informativo.
+        </li>
+        <li>
+          <strong>Rendimiento:</strong> Velocidad de carga y optimización
+          técnica.
+        </li>
+        <li>
+          <strong>Innovación:</strong> Características únicas y creatividad en
+          el diseño.
+        </li>
+      </ul>
+    </div>
+    <div id="examples">
+      <h2>Ejemplos destacados</h2>
       <section id="site-awwwards">
-        <h2>Awwwards</h2>
+        <h3>Awwwards</h3>
         <iframe
           src="https://chipsa.design/"
           title="Sitio Awwwards"
@@ -33,187 +73,120 @@
           height="400"
           loading="lazy"
         ></iframe>
-        <div>
-         <article class="project-card">
-              <img
-                src="https://picsum.photos/400/300?random=3"
-                alt="Proyecto 3"
-              />
-              <div class="project-info">
-                <h3>Dashboard</h3>
-                <p>
-                  Panel de control con layout responsive usando Flexbox y media
-                  queries.
-                </p>
-                <div class="project-tags">
-                  <span class="tag">Vue.js</span>
-                  <span class="tag">CSS</span>
-                  <span class="tag">Node.js</span>
-                </div>
-              </div>
-            </article>
+        <p>
+          Awwwards es una plataforma que reconoce y promueve la excelencia en el
+          diseño web. Los sitios premiados en Awwwards suelen destacar por su
+          creatividad, innovación y experiencia de usuario excepcional.
+        </p>
+        <section class="screenshots-gallery" aria-label="Galería de capturas">
+          <div class="gallery-row">
+            <figure class="shot shot-lg">
+              <img src="/assets/sow/awwwards1.png" alt="Captura Awwwards 1" />
+              <figcaption>
+                <h3>Awwwards — Home</h3>
+                <a href="#light-aw1" class="view">Ver</a>
+              </figcaption>
+            </figure>
+
+            <figure class="shot shot-sm">
+              <img src="/assets/sow/awwwards2.png" alt="Captura Awwwards 2" />
+              <figcaption>
+                <h3>Awwwards — Proyecto</h3>
+                <a href="#light-aw2" class="view">Ver</a>
+              </figcaption>
+            </figure>
+
+            <figure class="shot shot-med">
+              <img src="/assets/sow/img1.png" alt="Captura 1" />
+              <figcaption>
+                <h3>Proyecto B</h3>
+                <a href="#light-b1" class="view">Ver</a>
+              </figcaption>
+            </figure>
+          </div>
+
+          <div class="gallery-row">
+            <figure class="shot shot-med">
+              <img src="/assets/sow/img2.png" alt="Captura 2" />
+              <figcaption>
+                <h3>Proyecto C</h3>
+                <a href="#light-c1" class="view">Ver</a>
+              </figcaption>
+            </figure>
+
+            <figure class="shot shot-sm">
+              <img src="/assets/sow/awwwards3.png" alt="Captura Awwwards 3" />
+              <figcaption>
+                <h3>Awwwards — Detail</h3>
+                <a href="#light-aw3" class="view">Ver</a>
+              </figcaption>
+            </figure>
+
+            <figure class="shot shot-lg">
+              <img src="/assets/sow/img3.png" alt="Captura 3" />
+              <figcaption>
+                <h3>Proyecto D</h3>
+                <a href="#light-d1" class="view">Ver</a>
+              </figcaption>
+            </figure>
+          </div>
+        </section>
+
+        <!-- Ejemplo minimal de lightbox con :target (opcional). Duplica y adapta para cada item si lo quieres -->
+        <div id="light-aw1" class="lightbox" aria-hidden="false">
+          <a class="lightbox-close" href="#"></a>
+          <img
+            src="/assets/sow/awwwards1.png"
+            alt="Awwwards — Home (ampliada)"
+          />
+          <p class="lightbox-caption">Awwwards — Home</p>
         </div>
-        <div class="analysis-text">
-	       <p>El sitio de Awwwards presenta una experiencia inmersiva con un efecto parallax en el header...</p>
-	       <!-- más párrafos -->
-           <ul>
-			     <li>
-				      <strong>Estructura:</strong>
-				      ...
-           </li>
-			     <li>
-				       <strong>Visual:</strong>
-				       ...
-			      </li>
-			    <!-- etc -->
-		    </ul>
-        </div>
-        <div class="screenshots">
-	      <img src="/assets/sow/awwwards1.png" alt="Captura de pantalla 1" />
-	      <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        
-	      <!-- más imágenes -->
-        </div>
-        </div>
-	      <div class="screenshots">
-		     <img src="img1.png" alt="Captura 1" />
-		      <img src="img2.png" alt="Captura 2" />
-	      </div>
-	      <p class="conclusion">
-		      **Conclusión:** El sitio destaca por su creatividad en animaciones, pero podría mejorar la carga para optimizar el
-		      rendimiento en móviles.
-	      </p>
+        <p class="conclusion">
+          **Conclusión:** El sitio destaca por su creatividad en animaciones,
+          pero podría mejorar la carga para optimizar el rendimiento en móviles.
+        </p>
       </section>
       <section id="site-webby">
-        <h2>Webby Awards</h2>
+        <h3>Webby Awards</h3>
         <iframe
-          src="https://www.webby.com"
-          title="Sitio Webby"
+          src="https://www.webbyawards.com/winners/2023/"
+          title="Sitio Webby Awards"
           width="100%"
           height="400"
           loading="lazy"
         ></iframe>
-        <div class="analysis-text">
-	       <p>El sitio de Awwwards presenta una experiencia inmersiva con un efecto parallax en el header...</p>
-	       <!-- más párrafos -->
-           <ul>
-			     <li>
-				      <strong>Estructura:</strong>
-				      ...
-           </li>
-			     <li>
-				       <strong>Visual:</strong>
-				       ...
-			      </li>
-			    <!-- etc -->
-		    </ul>
-        </div>
-        <div class="screenshots">
-	      <img src="/assets/sow/awwwards1.png" alt="Captura de pantalla 1" />
-	      <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        
-	      <!-- más imágenes -->
-        </div>
-        </div>
-	      <div class="screenshots">
-		     <img src="img1.png" alt="Captura 1" />
-		      <img src="img2.png" alt="Captura 2" />
-	      </div>
-	      <p class="conclusion">
-		      **Conclusión:** El sitio destaca por su creatividad en animaciones, pero podría mejorar la carga para optimizar el
-		      rendimiento en móviles.
-	      </p>
+        <p>
+          Los Webby Awards son uno de los premios más prestigiosos en el mundo
+          digital. Reconocen la excelencia en sitios web, publicidad en línea,
+          video y aplicaciones móviles. Los ganadores son seleccionados por un
+          jurado internacional de expertos.
+        </p>
       </section>
-      <section id="site-fwa">
-        <h2>FWA</h2>
+      <section id="site-cssdesignawards">
+        <h2>CSS Design Awards</h2>
         <iframe
-          src="https://thefwa.com/"
-          title="Sitio FWA"
+          src="https://www.cssdesignawards.com/winners/"
+          title="Sitio CSS Design Awards"
           width="100%"
           height="400"
           loading="lazy"
         ></iframe>
-         <div class="analysis-text">
-	       <p>El sitio de Awwwards presenta una experiencia inmersiva con un efecto parallax en el header...</p>
-	       <!-- más párrafos -->
-           <ul>
-			     <li>
-				      <strong>Estructura:</strong>
-				      ...
-           </li>
-			     <li>
-				       <strong>Visual:</strong>
-				       ...
-			      </li>
-			    <!-- etc -->
-		    </ul>
-        </div>
-        <div class="screenshots">
-	      <img src="/assets/sow/awwwards1.png" alt="Captura de pantalla 1" />
-	      <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        
-	      <!-- más imágenes -->
-        </div>
-        </div>
-	      <div class="screenshots">
-		     <img src="img1.png" alt="Captura 1" />
-		      <img src="img2.png" alt="Captura 2" />
-	      </div>
-	      <p class="conclusion">
-		      **Conclusión:** El sitio destaca por su creatividad en animaciones, pero podría mejorar la carga para optimizar el
-		      rendimiento en móviles.
-	      </p>
+        <p>
+          CSS Design Awards premia a los mejores sitios web que utilizan CSS de
+          manera innovadora y efectiva. Los ganadores son seleccionados por un
+          panel de expertos en diseño web y desarrollo.
+        </p>
       </section>
-      <section id="site-ccsda">
-        <h2>CCSDA</h2>
-        <iframe
-          src="https://www.cssdesignawards.com/"
-          title="Sitio CSSDA"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-
-         <div class="analysis-text">
-	       <p>El sitio de Awwwards presenta una experiencia inmersiva con un efecto parallax en el header...</p>
-	       <!-- más párrafos -->
-           <ul>
-			     <li>
-				      <strong>Estructura:</strong>
-				      ...
-           </li>
-			     <li>
-				       <strong>Visual:</strong>
-				       ...
-			      </li>
-			    <!-- etc -->
-		    </ul>
-        </div>
-        <div class="screenshots">
-	      <img src="/assets/sow/awwwards1.png" alt="Captura de pantalla 1" />
-	      <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        <img src="/assets/sow/awwwards2.png" alt="Captura de pantalla 2" />
-        
-	      <!-- más imágenes -->
-        </div>
-        </div>
-	      <div class="screenshots">
-		     <img src="img1.png" alt="Captura 1" />
-		      <img src="img2.png" alt="Captura 2" />
-	      </div>
-	      <p class="conclusion">
-		      **Conclusión:** El sitio destaca por su creatividad en animaciones, pero podría mejorar la carga para optimizar el
-		      rendimiento en móviles.
-	      </p>
-      </section>
-      <!-- Más secciones para FWA, CSS Design Awards, etc. -->
-    </main>
-    <footer>
-      <p>© 2025 Web Atelier (UDIT) – Informe de análisis.</p>
-    </footer>
-     
+    </div>
+    <div id="conclusion">
+      <h3>Conclusión</h3>
+      <p>
+        Los sitios web premiados en plataformas como Awwwards, Webby Awards y
+        CSS Design Awards representan lo mejor en diseño y funcionalidad web.
+        Analizar estos sitios nos permite entender las tendencias actuales y las
+        mejores prácticas en el desarrollo web. Al aplicar estos principios,
+        podemos crear experiencias digitales más atractivas y efectivas.
+      </p>
+    </div>
   </body>
 </html>
