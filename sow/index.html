@@ -11,20 +11,21 @@
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="..assets/icons/apple-touch-icon.png"
+      href="/assets/icons/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="../assets/icons/favicon-32x32.png"
+      href="/assets/icons/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="../assets/icons/favicon-16x16.png"
+      href="/assets/icons/favicon-16x16.png"
     />
+    <link rel="manifest" href="/site.webmanifest" />
     <link rel="manifest" href="/site.webmanifest" />
     <link rel="stylesheet" href=".assets/css/sow.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -67,118 +68,625 @@
         </p>
       </section>
     </div>
-    <div id="criteria">
-      <h2>Criterios de Evaluación</h2>
-      <ul>
-        <li>
-          <strong>Diseño Visual:</strong> Uso efectivo de colores, tipografía e
-          imágenes.
-        </li>
-        <li>
-          <strong>Usabilidad:</strong> Navegación intuitiva y accesibilidad.
-        </li>
-        <li>
-          <strong>Contenido:</strong> Relevancia, claridad y valor informativo.
-        </li>
-        <li>
-          <strong>Rendimiento:</strong> Velocidad de carga y optimización
-          técnica.
-        </li>
-        <li>
-          <strong>Innovación:</strong> Características únicas y creatividad en
-          el diseño.
-        </li>
-      </ul>
+    <div>
+      <section id="criteria">
+        <h2>Criterios de Evaluación</h2>
+        <ul>
+          <li>
+            <strong>Diseño Visual:</strong> Uso efectivo de colores, tipografía
+            e imágenes.
+          </li>
+          <li>
+            <strong>Usabilidad:</strong> Navegación intuitiva y accesibilidad.
+          </li>
+          <li>
+            <strong>Contenido:</strong> Relevancia, claridad y valor
+            informativo.
+          </li>
+          <li>
+            <strong>Rendimiento:</strong> Velocidad de carga y optimización
+            técnica.
+          </li>
+          <li>
+            <strong>Innovación:</strong> Características únicas y creatividad en
+            el diseño.
+          </li>
+          <li>
+            <strong>Accesivilidad:</strong> Cumplimiento de estándares para los
+            usuarios.
+          </li>
+        </ul>
+      </section>
     </div>
-    <div id="examples">
-      <h2>Ejemplos destacados</h2>
-      <section id="site-awwwards">
-        <h3>Awwwards</h3>
-        <iframe
-          src="https://chipsa.design/"
-          title="Sitio Awwwards"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-        <p>
-          Awwwards es una plataforma que reconoce y promueve la excelencia en el
-          diseño web. Los sitios premiados en Awwwards suelen destacar por su
-          creatividad, innovación y experiencia de usuario excepcional.
-        </p>
-        <section class="screenshots-gallery" aria-label="Galería de capturas">
-          <div id="colunms">
-            <p>
-              El sitio de Awwwards presenta una experiencia inmersiva con un
-              efecto parallax en el header...
-            </p>
-            <!-- más párrafos -->
-          </div>
-          <div class="gallery-row">
-            <div class="screenshots">
-              <img
-                src="/assets/sow/awwwards1.png"
-                alt="Captura de pantalla 1"
-              />
-              <img
-                src="/assets/sow/awwwards2.png"
-                alt="Captura de pantalla 2"
-              />
-              <img
-                src="/assets/sow/awwwards2.png"
-                alt="Captura de pantalla 2"
-              />
-              <!-- más imágenes -->
-            </div>
-          </div>
-          <p class="conclusion">
-            **Conclusión:** El sitio destaca por su creatividad en animaciones,
-            pero podría mejorar la carga para optimizar el rendimiento en
-            móviles.
+    <div>
+      <section id="examples">
+        <h2>Ejemplos destacados</h2>
+        <div>
+          <h3>Awwwards</h3>
+          <iframe
+            src="https://chipsa.design/"
+            title="Sitio Awwwards"
+            width="100%"
+            height="400"
+            loading="lazy"
+          ></iframe>
+          <p>
+            <a href="https://chipsa.design/" target="_blank">Chispa.design</a>
+            se presenta claramente como un estudio que apuesta por lo creativo,
+            la animación, el 3D y WebGL. En su propio “About” indican que hacen
+            “websites unlike everyone else’s - with elaborate animation,
+            high-quality content and a creative concept”.
           </p>
-        </section>
+          <section class="columns">
+            <article>
+              <h4>Diseño Visual</h4>
+              <p>
+                El enfoque visual es muy cuidado tipografías grandes, buen uso
+                del espacio, animaciones de transición, efectos de WebGL (o al
+                menos se anuncia ese uso). En su artículo “We Don’t Create, We
+                Destroy” explican el cambio conceptual y visual de su web
+                enfoque en 3D, en “destruir” lo viejo para crear lo nuevo. Este
+                enfoque lo aprovechan para aumentar el dinamismo del sitio,
+                usando modelos 3D que se descomponen y recomponen al interactuar
+                con ellos al hacer hover. Los colores, el estilo
+                minimalista-blanco/negro con acentos. También hay que destacar
+                que en algunos momentos de la navegación es obvio el "efecto
+                paralax".
+              </p>
+            </article>
+            <article>
+              <h4>Usabilidad</h4>
+              <p>
+                La navegación principal es clara, la navegación es intuitiva y
+                hay muy buena jerarquía visual: el “hero” o pantalla principal
+                comunica bien “somos un estudio creativo” antes de que el
+                usuario tenga que investigar mucho; es altamente interactiva, lo
+                que aporta valor al estimular la exploración y el descubrimiento
+                por parte del usuario. La página web te obliga de cierta forma a
+                interactuar con sus contenidos de tal forma en la que si quieres
+                ver uno de los videos que se muestran ahí, tienes que mantener
+                el cursor del ratón sobre el contenedor del vídeo para que este
+                se reproduzca o aparezcan los controles.
+              </p>
+            </article>
+            <article>
+              <h4>Contenido</h4>
+              <p>
+                El contenido del estudio es relevante, enfocado: explican sus
+                servicios (“Sites, Interfaces, Graphics”) claramente en el home.
+                Hay casos de estudio interesantes (“Biotech Artlife… interactive
+                microscope lenses” etc) que muestran más que decir, lo cual hace
+                buen contenido.Tono de voz adecuado al target: empresas que
+                quieren destacar, tecnología, 3D, no algo genérico. El contenido
+                es relevante y bien alineado con la identidad del estudio. Para
+                análisis crítico podrías decir que cumple muy bien con su
+                público objetivo, aunque podría ganar en contenido más centrado
+                en “resultado para el cliente”, sin embargo, es coherente con su
+                posicionamiento.
+              </p>
+            </article>
+            <article>
+              <h4>Rendimiento</h4>
+              <p>
+                Dado que la web hace mucho uso de animaciones, WebGL, 3D, es
+                probable que la carga inicial (time to interactive) sea algo
+                lenta, especialmente en dispositivos móviles o conexiones
+                lentas. Sin embargo, por lo que he podido comprobar la
+                navegación es fluida y las animaciones se ejecutan sin problemas
+                en un equipo de gama media-alta. El sitio podría beneficiarse de
+                optimizaciones adicionales para mejorar la velocidad de carga,
+                como la compresión de imágenes y la minimización de scripts.
+              </p>
+            </article>
+            <article>
+              <h4>Innovación</h4>
+              <p>
+                El uso de WebGL, 3D, animaciones avanzadas, contenido CGI, que
+                puede apreciarse en la página web, así como el nivel de
+                interactividad y las animaciónes que hacen triger a medida que
+                vas navegando por la página es algo bastante únivo e innovador y
+                ellos lo anuncian con orgullo. El concepto de sitio-experiencia
+                (“a website today is no longer just a point of contact… it’s an
+                entire experience”) del estudio lo demuestra. La participación
+                de esta pagina web en numerosos concursos y la obtención de
+                premios en CSS Design Awards que tienen puntuaciones en UI, UX,
+                Innovación refuerza más este punto.
+              </p>
+            </article>
+            <article>
+              <h4>Accesibilidad</h4>
+              <p>
+                La accesibilidad de esta web resulta destacable. El sitio guía
+                al usuario mediante indicaciones interactivas, como botones de
+                “pulsar” o “reproducir” que aparecen al pasar el cursor sobre
+                imágenes o vídeos, lo que facilita la comprensión del flujo de
+                navegación, incluso para personas con discapacidades cognitivas.
+                Además, un círculo que sigue al cursor se transforma en
+                distintos botones según la acción posible, reforzando la
+                orientación visual.
+              </p>
+            </article>
+          </section>
+          <section class="screenshots-gallery" aria-label="Galería de capturas">
+            <div class="gallery-row">
+              <div class="screenshots">
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20140335.png?updatedAt=1761048399154"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20150323.png?updatedAt=1761051925302"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20150345.png?updatedAt=1761051925216"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20140335.png?updatedAt=1761048399154"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+              </div>
+            </div>
+          </section>
+          <div class="conclusion-section">
+            <h4>Conclusión</h4>
+            <p class="conclusion">
+              El sitio destaca por su creatividad y sus altos estandares en
+              diseño e innovación. La web de Chipsa Design combina un diseño
+              visual innovador y muy cuidado con una navegación guiada que
+              facilita la comprensión del sitio. En conjunto, es un excelente
+              ejemplo de sitio premiado que logra un equilibrio entre estética,
+              innovación y usabilidad, pero que también invita a reflexionar
+              sobre cómo optimizar la experiencia para todo tipo de usuarios.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3>Don't Board Me</h3>
+          <iframe
+            src="https://dontboardme.com/"
+            title="Sitio Awwwards"
+            width="100%"
+            height="400"
+            loading="lazy"
+          ></iframe>
+          <p>
+            <a href="https://dontboardme.com/" target="_blank"
+              >Don't Board Me</a
+            >
+            es una plataforma que reconoce y promueve la excelencia en el diseño
+            web. Los sitios premiados en Awwwards suelen destacar por su
+            creatividad, innovación y experiencia de usuario excepcional.
+          </p>
+          <section class="columns">
+            <article>
+              <h4>Diseño Visual</h4>
+              <p>
+                El sitio presenta un estilo lúdico y atractivo, con
+                ilustraciones de perros y una paleta de colores cálidos que
+                evocan cercanía y simpatía. La tipografía es grande y clara,
+                facilitando la lectura. La estructura es sencilla, con secciones
+                bien definidas que guían al usuario de manera intuitiva. La
+                estética general transmite confianza y profesionalismo,
+                alineándose con la identidad de una empresa dedicada al cuidado
+                de mascotas.
+              </p>
+            </article>
+            <article>
+              <h4>Usabilidad</h4>
+              <p>
+                La navegación es fluida y directa. Desde la página de inicio, el
+                usuario puede acceder fácilmente a la información sobre
+                servicios, precios y contacto. El proceso de reserva está
+                claramente delineado en pasos numerados, lo que facilita la
+                comprensión del flujo de interacción. Además, el sitio es
+                completamente responsive, adaptándose bien a dispositivos
+                móviles y ofreciendo una experiencia de usuario consistente en
+                diferentes plataformas.
+              </p>
+            </article>
+            <article>
+              <h4>Contenido</h4>
+              <p>
+                El contenido es conciso y relevante. Se destacan los servicios
+                ofrecidos, como paseos y cuidados personalizados para mascotas,
+                con descripciones claras y precios transparentes. Las
+                testimoniales de clientes refuerzan la credibilidad del
+                servicio. Sin embargo, podría enriquecerse con más información
+                sobre el equipo detrás de la empresa y detalles adicionales
+                sobre el proceso de selección de cuidadores.
+              </p>
+            </article>
+            <article>
+              <h4>Rendimiento</h4>
+              <p>
+                El sitio carga rápidamente, gracias a su diseño optimizado y a
+                la utilización de tecnologías modernas como Nuxt.js Narrow Labs
+                . Las imágenes y elementos gráficos están bien comprimidos, lo
+                que contribuye a una experiencia de usuario sin interrupciones.
+                No se observan retrasos significativos ni problemas de
+                rendimiento en la navegación.
+              </p>
+            </article>
+            <article>
+              <h4>Innovación</h4>
+              <p>
+                La página destaca por su enfoque creativo y original. La
+                interacción inicial, donde el usuario debe "rebotar una pelota"
+                para acceder al contenido, es una forma divertida de captar la
+                atención y establecer una conexión emocional con el visitante
+                Narrow Labs . Este tipo de elementos interactivos no solo hacen
+                que el sitio sea memorable, sino que también refuerzan la
+                temática centrada en el bienestar animal.
+              </p>
+            </article>
+            <article>
+              <h4>Accesibiliad</h4>
+              <p>
+                El sitio parece estar diseñado con principios de accesibilidad
+                en mente. La tipografía es legible y los contrastes de color son
+                adecuados. Sin embargo, sería beneficioso realizar una
+                evaluación más profunda utilizando herramientas específicas para
+                verificar el cumplimiento de las WCAG (Pautas de Accesibilidad
+                para el Contenido Web). Además, ofrecer alternativas de
+                navegación para usuarios con discapacidades visuales o motoras
+                podría mejorar aún más la inclusividad del sitio.
+              </p>
+            </article>
+          </section>
+          <section class="screenshots-gallery" aria-label="Galería de capturas">
+            <div class="gallery-row">
+              <div class="screenshots">
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20154648.png?updatedAt=1761054550948"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20154806.png?updatedAt=1761054550870"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20154731.png?updatedAt=1761054550855"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20154837.png?updatedAt=1761054551502"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+              </div>
+            </div>
+          </section>
+          <div class="conclusion-section">
+            <h4>Conclusión</h4>
+            <p class="conclusion">
+              Don’t Board Me presenta un diseño web ejemplar que combina
+              estética, funcionalidad y empatía. Su enfoque en la experiencia
+              del usuario, junto con elementos interactivos innovadores, lo
+              convierte en un referente en su sector. Para un análisis
+              académico, este sitio ofrece una rica base para explorar cómo el
+              diseño web puede influir en la percepción y confianza del usuario,
+              especialmente en servicios basados en la confianza como el cuidado
+              de mascotas.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3>Opal Camera</h3>
+          <iframe
+            src="https://opalcamera.com/opal-tadpole"
+            title="Sitio Awwwards"
+            width="100%"
+            height="400"
+            loading="lazy"
+          ></iframe>
+          <p>
+            <a href="https://opalcamera.com/opal-tadpole" target="_blank"
+              >Opal Camera</a
+            >
+            es una plataforma que reconoce y promueve la excelencia en el diseño
+            web. Los sitios premiados en Awwwards suelen destacar por su
+            creatividad, innovación y experiencia de usuario excepcional.
+          </p>
+          <section class="columns">
+            <article>
+              <h4>Diseño Visual</h4>
+              <p>
+                El diseño comunica inmediatamente “producto premium”: imágenes
+                grandes, presentación limpia, buena fotografía del producto que
+                destaca materiales, acabados, tamaño compacto. Paleta y estilo
+                consistentes: minimalista, buen uso del espacio blanco,
+                tipografías legibles, lo que transmite calidad y cuidado. El
+                enfoque visual del producto (“la webcam más pequeña”, “Clip for
+                laptop”) queda ilustrado claramente con fotos y descripciones.
+                Visualmente muy sólida, adecuada para un producto de gama alta.
+                Hace buen trabajo al posicionar el producto como deseable.
+              </p>
+            </article>
+            <article>
+              <h4>Usabilidad</h4>
+              <p>
+                La oferta del producto está claramente presentada: se indica que
+                es para portátil, que incluye clip, cable USB-C, compatibilidad
+                Mac/PC.El proceso de “unboxing / conectar” está explicado de
+                forma simple y directa (“Clip your camera to the top of your
+                laptop display. Connect the USB-C …”). La navegación es
+                sencilla, con secciones claras para características,
+                especificaciones,y explicaciones del producto. El sitio es
+                responsive y se adapta bien a dispositivos móviles, lo que
+                mejora la accesibilidad.Buena jerarquía: título claro
+                (“Introducing the Tadpole”), subtítulos explicativos, apartado
+                técnico visible.
+              </p>
+            </article>
+            <article>
+              <h4>Contenido</h4>
+              <p>
+                El contenido es profesional, completo y alineado con producto de
+                alta gama. Buena base para análisis en un informe de diseño web.
+                Muy buen contenido técnico: sensores Sony, lente f/1.8,
+                micrófono direccional “VisiMic”, clip para portátiles. Contenido
+                comercial claro: precio visible, llamada a la acción (“Order
+                now”), colores/ediciones (“White Edition”, “Black Edition”). Se
+                incluyen instrucciones rápidas (“What devices is Tadpole
+                compatible with?”) y política de devolución.
+              </p>
+            </article>
+            <article>
+              <h4>Rendimiento</h4>
+              <p>
+                El sitio parece optimizado para mostrar producto con gran
+                calidad visual, lo cual es importante para un producto físico
+                premium. Página ligera en cuanto a estructura textual: no
+                excesivas secciones que ralenticen la carga. Las imágenes están
+                bien integradas y no parecen afectar negativamente al tiempo de
+                carga de la web. La navegación es fluida y las transiciones
+                entre secciones son suaves, lo que contribuye a una experiencia
+                de usuario positiva. Buen desempeño presumible, pero como
+                siempre en webs de producto premium con imágenes grandes, la
+                experiencia en móvil/es conexiones lentas debe revisarse.
+              </p>
+            </article>
+            <article>
+              <h4>Innovación</h4>
+              <p>
+                El producto en sí mismo es innovador (webcam ultra-compacta,
+                diseño específico para portátil, micrófono direccional) y la
+                presentación lo comunica bien.Integración de instrucciones
+                rápidas de uso (“take your camera out… clip… connect…”) lo que
+                mejora la experiencia usuario desde la página. Alta innovación,
+                tanto en producto como en presentación web, lo cual la hace una
+                buena candidata para análisis de diseño avanzado.
+              </p>
+            </article>
+            <article>
+              <h4>Accesibiliad</h4>
+              <p>
+                La tipografía y estructura visual son claras y legibles en la
+                versión de escritorio, lo cual es positivo.La navegación
+                “comprensible” (títulos, subtítulos, estructura simple) ayuda a
+                la accesibilidad cognitiva.
+              </p>
+            </article>
+          </section>
+          <section class="screenshots-gallery" aria-label="Galería de capturas">
+            <div class="gallery-row">
+              <div class="screenshots">
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20155927.png?updatedAt=1761055361951"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20160115.png?updatedAt=1761055361923"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20160115.png?updatedAt=1761055361923s"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20160008.png?updatedAt=1761055361897"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+              </div>
+            </div>
+          </section>
+          <div class="conclusion-section">
+            <h4>Conclusión</h4>
+            <p class="conclusion">
+              El sitio destaca por su creatividad y sus altos estandares en
+              diseño e innovación. La web de Chipsa Design combina un diseño
+              visual innovador y muy cuidado con una navegación guiada que
+              facilita la comprensión del sitio. En conjunto, es un excelente
+              ejemplo de sitio premiado que logra un equilibrio entre estética,
+              innovación y usabilidad, pero que también invita a reflexionar
+              sobre cómo optimizar la experiencia para todo tipo de usuarios.
+            </p>
+          </div>
+        </div>
+        <div>
+          <h3>100 Lost Especies</h3>
+          <iframe
+            src="https://www.100lostspecies.com/"
+            title="Sitio Awwwards"
+            width="100%"
+            height="400"
+            loading="lazy"
+          ></iframe>
+          <p>
+            <a href="https://www.100lostspecies.com/" target="_blank"
+              >100 Lost Especies</a
+            >
+            es una plataforma que reconoce y promueve la excelencia en el diseño
+            web. Los sitios premiados en Awwwards suelen destacar por su
+            creatividad, innovación y experiencia de usuario excepcional.
+          </p>
+          <section class="columns">
+            <article>
+              <h4>Diseño Visual</h4>
+              <p>
+                El concepto visual es potente: el sitio declara que en “100
+                segundos” se recuerdan “100 especies perdidas” antes de que el
+                mismo sitio desaparezca. Esta idea de fugacidad y pérdida se
+                refleja en el diseño: tipografía grande, imágenes impactantes de
+                las especies. Esto le da un carácter emocional, casi poético, y
+                el diseño acompaña ese enfoque. Estética muy minimalista: paleta
+                limitada (por ejemplo negro + crema/tonos suaves) lo cual
+                permite que las imágenes de las especies resalten. Uso creativo
+                de la temporalidad y animación: la desaparición del sitio, la
+                cuenta regresiva, los elementos que se desvanecen — todo suma
+                para una experiencia inmersiva.
+              </p>
+            </article>
+            <article>
+              <h4>Usabilidad</h4>
+              <p>
+                El flujo de la experiencia está claramente diseñado: una entrada
+                que prepara al usuario para una navegación distinta, luego la
+                transición entre especies, cuenta regresiva. Esto genera
+                curiosidad y mantiene la atención. Buena jerarquía visual: la
+                atención se dirige a las imágenes de especies, a la cuenta
+                regresiva/titulo principal, luego al contenido complementario.
+                Muy buena usabilidad para lo que pretende el sitio (una
+                experiencia inmersiva), aunque no es una usabilidad estándar
+                “información rápida” — enfatiza esto en el análisis: el usuario
+                debe estar dispuesto a vivir la experiencia.
+              </p>
+            </article>
+            <article>
+              <h4>Contenido</h4>
+              <p>
+                El contenido tiene un propósito claro: recordar especies
+                extintas, sensibilizar sobre la biodiversidad perdida. El título
+                lo deja ver: “Lost species but not forgotten. Explore their
+                stories. Understand their extinction.” Buen equilibrio entre lo
+                visual y lo explicativo: imágenes de especies + contexto de
+                tiempo (“100 segundos”) + la desaparición del sitio como
+                metáfora. El contenido está bien alineado con la intención del
+                sitio (memorial, sensibilización) y cumple muy bien. Es rico
+                para análisis porque permite ver cómo el contenido se integra
+                con el diseño para un fin específico.
+              </p>
+            </article>
+            <article>
+              <h4>Rendimiento</h4>
+              <p>
+                Sitios de este tipo suelen estar muy cuidados en cuanto a diseño
+                técnico, y los premios que ha recibido sugieren que el equipo ha
+                optimizado la experiencia. La simplicidad de paleta y la
+                estructura centrada ayudan a que no haya exceso de elementos
+                dispersos que ralenticen.
+              </p>
+            </article>
+            <article>
+              <h4>Innovación</h4>
+              <p>
+                Conceptualmente muy innovador: utilizar la desaparición del
+                sitio como metáfora de la extinción — “100 segundos, 100
+                especies”. Ese planteamiento es distinto a una página estática o
+                convencional. Uso de animaciones, transiciones, experiencia
+                inmersiva en scroll/tiempo que no es común en webs informativas
+                estándar. El propósito educativo + artístico + experiencial lo
+                convierte en un híbrido entre documental, web-arte y campaña de
+                sensibilización. Gran candidato para tu práctica de diseño web:
+                muestra claramente innovación en experiencia, contenido y forma,
+                lo que lo convierte en ejemplo relevante para análisis crítico.
+              </p>
+            </article>
+            <article>
+              <h4>Accesibiliad</h4>
+              <p>
+                Aunque la estética es cuidada, no encontré información pública
+                detallada sobre evaluación de accesibilidad del sitio (por
+                ejemplo cumplimiento WCAG). Al depender de animaciones,
+                desaparición, grandes imágenes, podría haber barreras para
+                usuarios con discapacidades visuales, cognitivas o motores.
+                Desde una perspectiva de análisis crítico: la accesibilidad es
+                un área que merece especial atención y crítica. Puedes destacar
+                que, aunque el sitio es muy potente visualmente, podría no estar
+                al 100 % en accesibilidad para todos los usuarios, lo que es
+                importante.s
+              </p>
+            </article>
+          </section>
+          <section class="screenshots-gallery" aria-label="Galería de capturas">
+            <div class="gallery-row">
+              <div class="screenshots">
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20162009.png?updatedAt=1761056933636"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20162040.png?updatedAt=1761056933827"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20162110.png?updatedAt=1761056934532"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+                <img
+                  src="https://ik.imagekit.io/1kpiksaft/Analisis%20web/Captura%20de%20pantalla%202025-10-21%20162211.png?updatedAt=1761056933781"
+                  height="202rem"
+                  alt="Captura de pantalla 1"
+                />
+              </div>
+            </div>
+          </section>
+          <div class="conclusion-section">
+            <h4>Conclusión</h4>
+            <p class="conclusion">
+              El sitio destaca por su creatividad y sus altos estandares en
+              diseño e innovación. La web de Chipsa Design combina un diseño
+              visual innovador y muy cuidado con una navegación guiada que
+              facilita la comprensión del sitio. En conjunto, es un excelente
+              ejemplo de sitio premiado que logra un equilibrio entre estética,
+              innovación y usabilidad, pero que también invita a reflexionar
+              sobre cómo optimizar la experiencia para todo tipo de usuarios.
+            </p>
+          </div>
+        </div>
       </section>
-      <section id="site-webby">
-        <h3>Webby Awards</h3>
-        <iframe
-          src="https://www.webbyawards.com/winners/2023/"
-          title="Sitio Webby Awards"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-        <p>
-          Los Webby Awards son uno de los premios más prestigiosos en el mundo
-          digital. Reconocen la excelencia en sitios web, publicidad en línea,
-          video y aplicaciones móviles. Los ganadores son seleccionados por un
-          jurado internacional de expertos.
-        </p>
-      </section>
-      <section id="site-cssdesignawards">
-        <h2>CSS Design Awards</h2>
-        <iframe
-          src="https://www.cssdesignawards.com/winners/"
-          title="Sitio CSS Design Awards"
-          width="100%"
-          height="400"
-          loading="lazy"
-        ></iframe>
-        <p>
-          CSS Design Awards premia a los mejores sitios web que utilizan CSS de
-          manera innovadora y efectiva. Los ganadores son seleccionados por un
-          panel de expertos en diseño web y desarrollo.
+      <section>
+        <h2>Conclusión General</h2>
+        <p id="conclusion">
+          El análisis de los sitios Chipsa Design, Don’t Board Me, Opal Camera y
+          100 Lost Species evidencia cómo el diseño web contemporáneo combina
+          creatividad, funcionalidad y tecnología para generar experiencias
+          únicas. Cada proyecto, desde su propósito y público, explora distintas
+          dimensiones del diseño digital: la experimentación visual de Chipsa
+          Design, la cercanía emocional y usabilidad de Don’t Board Me, la
+          claridad técnica y estética de Opal Tadpole, y la narrativa inmersiva
+          y simbólica de 100 Lost Species. En conjunto, demuestran que un sitio
+          web puede ser mucho más que una interfaz informativa: puede emocionar,
+          comunicar valores y contar historias. No obstante, también ponen de
+          manifiesto desafíos comunes en el diseño actual, como el equilibrio
+          entre impacto visual y accesibilidad, o entre innovación y
+          rendimiento. Por tanto, estos ejemplos reflejan la evolución del
+          diseño web hacia experiencias más sensoriales, inclusivas y
+          significativas, donde la creatividad y la empatía con el usuario se
+          convierten en los verdaderos ejes de la comunicación digital.
         </p>
       </section>
     </div>
-    <div id="conclusion">
-      <h3>Conclusión</h3>
-      <p>
-        Los sitios web premiados en plataformas como Awwwards, Webby Awards y
-        CSS Design Awards representan lo mejor en diseño y funcionalidad web.
-        Analizar estos sitios nos permite entender las tendencias actuales y las
-        mejores prácticas en el desarrollo web. Al aplicar estos principios,
-        podemos crear experiencias digitales más atractivas y efectivas.
-      </p>
-    </div>
+    <section>
+      <footer>
+        <p>&copy; 2024 Some Outstanding Webs. Todos los derechos reservados.</p>
+      </footer>
+    </section>
   </body>
 </html>
