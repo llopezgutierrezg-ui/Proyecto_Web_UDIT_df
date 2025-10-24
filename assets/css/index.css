@@ -1,2 +1,5 @@
-@import url("http://meyerweb.com/eric/tools/css/reset/reset.css"); /* CSS Reset para compatibilidad entre navegadores */
+/*The barrel Stile Sheet*/
+@import url("http://meyerweb.com/eric/tools//reset/reset.css"); /* CSS Reset para compatibilidad entre navegadores */
+@import url("assets/css/reset.css"); /* Reset personalizado */
+@import "url(../Types/OCRA.woff2)";
 @import url("style.css"); /* Estilos principales */
